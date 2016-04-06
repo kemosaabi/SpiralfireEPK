@@ -1,0 +1,75 @@
+body {
+		/* location of the image*/
+	background-image: url("../img/sinclair_bg.jpg");
+	
+	/* background image is center vertically and horizontally
+	   at all times */
+	background-position: center center;
+	
+	/* background image is fixed in the viewport so that it
+	   doesn't move when the content's height is greater than
+	   the image height */
+	background-attachment: fixed;
+	
+	/* background image rescales based on the container's size */
+	background-size: cover;
+}
+
+#spiralfire-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 5px 5% 0;
+	
+	/* creates transparency to element only, not its children */
+	background: rgba(0,0,0,.5)
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	color: #d7921a;
+	font-family: 'Rock salt', cursive;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	display: inline-block;
+	float:left;
+	width: 32%;
+	margin: 5px 0;
+	font-family: 'Rock salt';
+	border-right: 1px solid red;
+}
+
+/* selectes every 3rd li */
+nav ul li:nth-child(3n) {
+	border-right: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: firebrick;
+	padding: 5px;
+}
+
+/* test for showing padding */
+nav ul li a:hover {
+	background-color: orange;
+}
+
+
+
+
+
+
+
