@@ -31,7 +31,7 @@ h1 {
 	font-family: 'Rock salt', cursive;
 }
 
-nav {
+nav, footer {
 	text-align: center;
 }
 
@@ -92,6 +92,12 @@ iframe {
 	margin: 5px 0;
 }
 
+.social-media {
+	margin: 0 5px;
+	padding: 5px;
+	max-height: 20px;
+	max-width: 20px;
+}
 
 
 
