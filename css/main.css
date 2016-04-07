@@ -73,8 +73,24 @@ iframe {
 	max-width: 95%;
 }
 
+#members {
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0, .5);
+	font-family: Georgia;
+	color: #d7921a;
+	border-radius: 20%;
+}
 
+#members ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
 
+#members ul li {
+	margin: 5px 0;
+}
 
 
 
