@@ -67,6 +67,14 @@ nav ul li a:hover {
 	background-color: orange;
 }
 
+#youtube-video {
+	text-align: center;
+}
+
+iframe {
+	max-width: 95%;
+}
+
 
 
 
