@@ -48,23 +48,21 @@ nav ul li {
 	width: 32%;
 	margin: 5px 0;
 	font-family: 'Rock salt';
-	border-right: 1px solid red;
-}
-
-/* selectes every 3rd li */
-nav ul li:nth-child(3n) {
-	border-right: none;
+	border-right: 3px solid red;
+	border-bottom: 1px solid red;
+	background-color: rgba(50,20,50,.2);
+	border-radius: 50%;
 }
 
 nav ul li a {
 	text-decoration: none;
-	color: firebrick;
+	color: #d7921a;
 	padding: 5px;
 }
 
 /* test for showing padding */
 nav ul li a:hover {
-	background-color: orange;
+	color: purple;
 }
 
 #youtube-video {
