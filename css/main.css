@@ -1,3 +1,7 @@
+/************************
+GENERAL
+*************************/
+
 body {
 		/* location of the image*/
 	background-image: url("../img/sinclair_bg.jpg");
@@ -15,22 +19,20 @@ body {
 	background-size: cover;
 }
 
-#spiralfire-wrapper {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 5px 5% 0;
-	
-	/* creates transparency to element only, not its children */
-	background: rgba(0,0,0,.5)
+#spiralfire_wrapper {
+	width: 100%;
+	background-color: black;
 }
 
-h1 {
-	text-align: center;
-	margin: 0 auto;
-	color: #d7921a;
-	font-family: 'Rock salt', cursive;
+#band_heading {
+	width: 100%;
+	max-height: 100px;
+	border-bottom: 2px solid #fac4c2;
 }
 
+/************************
+NAVIGATION
+*************************/
 nav, footer {
 	text-align: center;
 }
@@ -65,6 +67,10 @@ nav ul li a:hover {
 	color: purple;
 }
 
+
+/************************
+VIDEO
+*************************/
 #youtube-video {
 	text-align: center;
 }
@@ -73,6 +79,9 @@ iframe {
 	max-width: 95%;
 }
 
+/************************
+BAND MEMBERS
+*************************/
 #members {
 	width: 90%;
 	margin: 0 auto;
@@ -92,6 +101,9 @@ iframe {
 	margin: 5px 0;
 }
 
+/************************
+SOCIAL MEDIA
+*************************/
 .social-media {
 	margin: 0 5px;
 	padding: 5px;
