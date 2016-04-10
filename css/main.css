@@ -107,11 +107,21 @@ BAND MEMBERS
 /************************
 SOCIAL MEDIA
 *************************/
+#social-media-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#social-media-wrapper a {
+	text-decoration: none;
+	margin: 0;
+}
+
 .social-media {
-	margin: 0 5px;
-	padding: 5px;
-	max-height: 20px;
-	max-width: 20px;
+	margin: 5px 10px;
+	max-height: 15px;
+	max-width: 15px;
 }
 
 
