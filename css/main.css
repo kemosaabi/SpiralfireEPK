@@ -17,23 +17,25 @@ body {
 	
 	/* background image rescales based on the container's size */
 	background-size: cover;
+	font-size: 16px;
 }
 
 #spiralfire_wrapper {
 	width: 100%;
 	background-color: black;
+	opacity: .7;
 }
 
 #band_heading {
 	width: 100%;
 	max-height: 100px;
-	border-bottom: 2px solid #fac4c2;
+	border-bottom: 1px solid black;
 }
 
 /************************
 NAVIGATION
 *************************/
-nav, footer {
+nav {
 	text-align: center;
 }
 
@@ -45,14 +47,13 @@ nav ul{
 }
 
 nav ul li {
-	display: inline-block;
 	float:left;
-	width: 32%;
-	margin: 5px 0;
+	width: 28%;
+	margin: 0 1% 5px;
 	font-family: 'Rock salt';
-	border-right: 3px solid red;
-	border-bottom: 1px solid red;
-	background-color: rgba(50,20,50,.2);
+	font-size: .7em;
+	border-right: 2px solid #ca0c0c;
+	border-left: 2px dotted #ca0c0c;
 	border-radius: 50%;
 }
 
@@ -62,7 +63,6 @@ nav ul li a {
 	padding: 5px;
 }
 
-/* test for showing padding */
 nav ul li a:hover {
 	color: purple;
 }
@@ -83,22 +83,25 @@ iframe {
 BAND MEMBERS
 *************************/
 #members {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	background-color: rgba(0,0,0, .5);
-	font-family: Georgia;
-	color: #d7921a;
-	border-radius: 20%;
+	padding: 5px;
+	background-color: rgba(0,0,0, .7);
 }
 
 #members ul {
 	list-style: none;
+	margin: 0;
 	padding: 0;
 	text-align: center;
+	overflow: hidden;
 }
 
 #members ul li {
 	margin: 5px 0;
+	font-family: Georgia;
+	font-size: .7em;
+	color: #d7921a;
 }
 
 /************************
