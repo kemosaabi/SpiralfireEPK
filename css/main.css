@@ -8,7 +8,7 @@ body {
 	
 	/* background image is center vertically and horizontally
 	   at all times */
-	background-position: center center;
+	background-position: center;
 	
 	/* background image is fixed in the viewport so that it
 	   doesn't move when the content's height is greater than
@@ -16,7 +16,12 @@ body {
 	background-attachment: fixed;
 	
 	/* background image rescales based on the container's size */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
+	
+	background-repeat: no-repeat;
 	font-size: 1em;
 }
 
