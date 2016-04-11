@@ -161,7 +161,27 @@ BAND BIO
 	color: #a63325; 
 }
 
+/************************
+MUSIC
+*************************/
+#music {
+	background-color: rgba(0, 0, 0, .7);
+	border-top: 2px solid #a63325;
+	border-bottom: 2px solid #a63325;
+	width: 90%;
+	text-align: center;
+	margin: .8em auto;
+}
 
+#music figure {
+	margin: 0;
+}
 
+#music audio {
+	width: 90%;
+}
 
-
+#music figcaption {
+	font-size: .7rem;
+	color: #a63325;
+}
