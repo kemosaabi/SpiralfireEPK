@@ -17,7 +17,7 @@ body {
 	
 	/* background image rescales based on the container's size */
 	background-size: cover;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 #spiralfire_wrapper {
@@ -29,6 +29,20 @@ body {
 #band_heading {
 	width: 100%;
 	max-height: 100px;
+}
+
+.content-heading {
+	color: #a63325;
+	display: inline;
+}
+
+.arrow {
+	max-width: 1.25rem;  /* 20px/16px */
+	vertical-align: bottom;
+}
+
+.page-top {
+	
 }
 
 /************************
@@ -119,9 +133,35 @@ SOCIAL MEDIA
 }
 
 .social-media {
-	max-height: 15px;
-	max-width: 15px;
+	max-height: 1rem;
+	max-width: 1rem;
 }
+
+/************************
+BAND BIO
+*************************/
+#bio {
+	background-color: rgba(0, 0, 0, .7);
+	width: 90%;
+	margin: 0 auto .3125rem;
+	font-size: .7rem;
+	border-top: 2px solid #a63325;
+	border-bottom: 2px solid #a63325;
+	text-align: justify;
+}
+
+#bio p {
+	margin: 0;
+	padding: .5em 1.5em;
+	font-size: .7rem;
+	color: #d7921a;
+}
+
+#bio p a {
+	color: #a63325; 
+}
+
+
 
 
 
